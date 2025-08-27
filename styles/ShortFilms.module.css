@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Exiledesec';
+  src: url('/fonts/2.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CreditsFont';
+  src: url('/fonts/12.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mov_t';
+  src: url('/fonts/mov_t.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CastFont'; /* Choose a suitable name for your font */
+  src: url('/fonts/10.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   padding: 0;
 }
@@ -15,11 +43,13 @@
 .title {
   margin: 0;
   line-height: 1.15;
+  font-family: 'mov_t', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .year {
+  font-family: 'CastFont', sans-serif;
   font-size: 2.5rem;
   margin-left: 1rem;
 }
@@ -47,12 +77,12 @@
 }
 
 .credits {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'CreditsFont', sans-serif;
   font-size: 1.5rem;
   grid-column: 3;
   grid-row: 2;
   text-align: left;
-  max-width: 120px;
+  max-width: 170px;
 }
 
 .titleContainer {
@@ -111,6 +141,7 @@
   }
 
   .cast {
+    font-family: 'CastFont', sans-serif; /* Apply the custom font */
     grid-row: 3;
     grid-column: 1;
     text-align: center;
@@ -124,10 +155,12 @@
 }
 
 .cast {
+  font-family: 'CastFont', sans-serif; /* Apply the custom font */
+  font-size: 2.5rem;
   grid-column: 1;
   grid-row: 1;
   text-align: right;
-  transform: rotate(-10deg) translateX(200px) translateY(200px); /* move left & down */
+  transform: rotate(-10deg) translateX(280px) translateY(200px); /* move left & down */
 }
 
 
@@ -138,6 +171,7 @@
 
 
 .section2 {
+  height: 20vw;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -191,15 +225,15 @@
 }
 
 .yearExile {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'CastFont', sans-serif;
   font-size: 2rem;
   margin-left: 1rem;
   /* Removed grid-column and text-align as it's now handled by .titleContainer */
 }
 
 .descriptionExile {
-  font-family: 'Georgia', serif; /* or similar elegant serif font */
-  font-size: 1.2rem;
+  font-family: 'Exiledesec';
+  font-size: 1.3rem;
   line-height: 1.6;
   text-align: justify;
   grid-column: 1; /* First column */
@@ -209,7 +243,7 @@
 }
 
 .creditsExile {
-  font-family: 'Georgia', serif; /* or similar elegant serif font */
+  font-family: 'Exiledesec';
   font-size: 1.1rem;
   line-height: 1.8;
   text-align: left; /* Align left within its column */
@@ -278,6 +312,7 @@
 }
 
 .title4 {
+  font-family: 'Exiledesec';
   margin: 0;
   line-height: 1.15;
   font-size: 2.5rem; /* Adjust as needed */
@@ -285,6 +320,7 @@
 }
 
 .year4 {
+  font-family: 'CastFont', sans-serif;
   font-size: 2.5rem;
   margin-left: 1rem;
 }

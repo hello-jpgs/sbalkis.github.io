@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'a';
+  src: url('/fonts/ara.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .main {
   padding: 0;
@@ -78,7 +84,7 @@
 .nameArabic {
   font-size: 4rem;
   color: #fff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'a';
 }
 
 

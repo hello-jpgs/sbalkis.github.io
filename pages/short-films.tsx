@@ -47,7 +47,7 @@ const ShortFilms: NextPage = () => {
         </section>
 
         <section className={styles.section2}>
-          <p className={styles.postProductionText}>currently in post-production</p>
+          <p className={styles.year}>currently in post-production</p>
           <video className={styles.video} controls>
             <source src="/videos/1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -70,7 +70,9 @@ const ShortFilms: NextPage = () => {
             </div>
             <div className={styles.creditsExile}>
               <p><b>Wisaal Jahangir as Nour</b></p>
+              <br />
               <p><b>Writer/Director/Editor - Sara Balkis</b></p>
+              <br />
               <p><b>Sound Design - José Ibanez, Louis Deng, Ryan Rokni</b></p>
             </div>
           </div>
