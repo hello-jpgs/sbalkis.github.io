@@ -22,6 +22,7 @@ export default function Home() {
         </div>
         <div className={`${styles.section} ${styles.bg22}`}>
           <div className={styles.titleContainer}>
+            <div className={styles.paperclip}></div>
             <h2 className={styles.title}>about me</h2>
           </div>
           <p className={styles.description}>
@@ -32,8 +33,9 @@ export default function Home() {
           Earlier this year, I was selected as a filmmaker in residence at the 2025 Toronto Palestine Film Festival, where my latest short film Between the Silence and The Noise will premiere in September of this year, currently in post-production.
           </p>
         </div>
-        <div className={`${styles.section} ${styles.bg22}`}>
+        <div className={`${styles.section} ${styles.bg22inv}`}>
           <div className={styles.titleContainer}>
+            <div className={styles.paperclipRight}></div>
             <h2 className={styles.title}>short films</h2>
           </div>
           <p className={styles.description}>
