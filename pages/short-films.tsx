@@ -47,7 +47,7 @@ const ShortFilms: NextPage = () => {
         </section>
 
         <section className={styles.section2}>
-          <p className={styles.year}>currently in post-production</p>
+          <p className={styles.postProductionText}>currently in post-production</p>
           <video className={styles.video} controls>
             <source src="/videos/1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -56,9 +56,9 @@ const ShortFilms: NextPage = () => {
 
         <section className={styles.section3}>
           <div className={styles.content}>
-            <div className={styles.titleContainer}>
+            <div className={styles.titleContainerEX}>
               <h1 className={styles.titleExile}>EXILE</h1>
-              <p className={styles.yearExile}>2024</p>
+              <p className={styles.year}>2024</p>
             </div>
             <div className={styles.descriptionExile}>
               <p>
