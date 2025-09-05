@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'aileron';
-  src: url('/fonts/Aileron-Regular.otf') format('opentype');
+  src: url('/sbalkis.github.io/fonts/Aileron-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'YAFdJn5d8s0_0';
-  src: url('/fonts/YAFdJn5d8s0_0.ttf') format('truetype');
+  src: url('/sbalkis.github.io/fonts/YAFdJn5d8s0_0.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ArchivoBlack-Regular';
-  src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  src: url('/sbalkis.github.io/fonts/ArchivoBlack-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'a';
-  src: url('/fonts/ara.ttf') format('truetype');
+  src: url('/sbalkis.github.io/fonts/ara.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -158,7 +158,7 @@
   margin-bottom: 2rem;
   max-width: 800px;
   color: rgb(255, 255, 255);
-  src: url('/fonts/Aileron-Regular.otf') format('opentype');
+  src: url('/sbalkis.github.io/fonts/Aileron-Regular.otf') format('opentype');
 }
 
 .aboutDescription {

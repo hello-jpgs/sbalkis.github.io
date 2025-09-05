@@ -67,7 +67,7 @@
 .section1 {
   width: 100vw;
   height: 100vh;
-  background-image: url(/girl.jpg);
+  background-image: url(/sbalkis.github.io/girl.jpg);
   background-size: cover;
   background-position: center; /* Center the background image */
   display: flex;
@@ -160,7 +160,7 @@
 .section3 {
   width: 100vw;
   height: 100vh;
-  background-image: url(/s3.png);
+  background-image: url(/sbalkis.github.io/s3.png);
   background-size: cover;
   background-position: center;
   display: flex;
