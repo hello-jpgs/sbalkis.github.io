@@ -45,7 +45,7 @@
 }
 
 .bg1 {
-  background-image: url("/A1.jpg");
+  background-image: url("/sbalkis.github.io/A1.jpg");
 }
 
 .bg2 {
@@ -57,7 +57,7 @@
 }
 
 .bg22 {
-  background-image: url("/A2.jpg");
+  background-image: url("/sbalkis.github.io/A2.jpg");
 }
 
 .bg22inv {
@@ -70,7 +70,7 @@
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top/left/right/bottom: 0 */
-  background-image: url("/A2.jpg");
+  background-image: url("/sbalkis.github.io/A2.jpg");
   background-size: cover;
   background-position: center;
   transform: scaleY(-1); /* flip image vertically */
@@ -139,7 +139,7 @@
 .title {
   font-family: 'Courier New', Courier, monospace;
   font-size: 3.5rem;
-  background-image: url("/black.png"); /* Applied paper.png as background */
+  background-image: url("/sbalkis.github.io/black.png"); /* Applied paper.png as background */
   background-size: 100% 100%; /* Ensure the image covers the title area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */
@@ -211,7 +211,7 @@
     font-size: 5rem;
   }
   .bg1 {
-    background-image: url("/t2.jpg");
+    background-image: url("/sbalkis.github.io/t2.jpg");
   }
   .nameContainer {
     margin-top: -60vh; /* Adjust this value as needed to move it up */
