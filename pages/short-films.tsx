@@ -50,8 +50,8 @@ const ShortFilms: NextPage = () => {
 
         <section className={styles.section2}>
           <p className={styles.postProductionText}>currently in post-production</p>
-          <video className={styles.video} controls poster="/videos/1.png">
-            <source src="/videos/1.mp4" type="video/mp4" />
+          <video className={styles.video} controls poster="/sbalkis.github.io/videos/1.png">
+            <source src="/sbalkis.github.io/videos/1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </section>
@@ -80,8 +80,8 @@ const ShortFilms: NextPage = () => {
           </div>
         </section>
 <section className={styles.section2}>
-          <video className={styles.video} controls poster="/videos/2.png">
-            <source src="/videos/2.mp4" type="video/mp4" />
+          <video className={styles.video} controls poster="/sbalkis.github.io/videos/2.png">
+            <source src="/sbalkis.github.io/videos/2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </section>
@@ -97,8 +97,8 @@ const ShortFilms: NextPage = () => {
               </p>
             </div>
             <div className={styles.videoContainer4}>
-              <video className={styles.video4} controls poster="/videos/3.png">
-                <source src="/videos/3.mp4" type="video/mp4" />
+              <video className={styles.video4} controls poster="/sbalkis.github.io/videos/3.png">
+                <source src="/sbalkis.github.io/videos/3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
