@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Exiledesec';
-  src: url('/fonts/2.woff2') format('woff2');
+  src: url('/sbalkis.github.io/fonts/2.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LibreBaskervilleItalic';
-  src: url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
+  src: url('/sbalkis.github.io/fonts/LibreBaskerville-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
@@ -16,21 +16,21 @@
 
 @font-face {
   font-family: 'CreditsFont';
-  src: url('/fonts/12.woff2') format('woff2');
+  src: url('/sbalkis.github.io/fonts/12.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'mov_t';
-  src: url('/fonts/mov_t.woff2') format('woff2');
+  src: url('/sbalkis.github.io/fonts/mov_t.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CastFont'; /* Choose a suitable name for your font */
-  src: url('/fonts/10.woff2') format('woff2');
+  src: url('/sbalkis.github.io/fonts/10.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
