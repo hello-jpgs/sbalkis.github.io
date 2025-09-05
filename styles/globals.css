@@ -18,7 +18,7 @@ body {
 
 body {
   color: var(--foreground);
-  background-color: #333; /* Dark grey background for the entire body */
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,9 +1,23 @@
 @font-face {
+  font-family: 'aileron';
+  src: url('/fonts/Aileron-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'YAFdJn5d8s0_0';
   src: url('/fonts/YAFdJn5d8s0_0.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'ArchivoBlack-Regular';
+  src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'a';
   src: url('/fonts/ara.ttf') format('truetype');
@@ -31,7 +45,7 @@
 }
 
 .bg1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/1f54.png");
+  background-image: url("/A1.jpg");
 }
 
 .bg2 {
@@ -43,7 +57,7 @@
 }
 
 .bg22 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/bg2.png");
+  background-image: url("/A2.jpg");
 }
 
 .bg22inv {
@@ -56,7 +70,7 @@
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top/left/right/bottom: 0 */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/bg2.png");
+  background-image: url("/A2.jpg");
   background-size: cover;
   background-position: center;
   transform: scaleY(-1); /* flip image vertically */
@@ -70,20 +84,23 @@
 }
 
 .writer {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
   color: #fff; /* Set text color to white */
+  font-family: 'aileron';
+
 }
 
-.name {
-  font-size: 5rem;
-  color: #fff; /* Set text color to white */
-  font-family: 'Courier New', Courier, monospace;
+.name2 {
+  font-size: 6rem;
+  color: #baffa1; /* Set text color to white */
+  font-family: 'ArchivoBlack-Regular', 'Courier New', Courier, monospace;
+  letter-spacing: -7px; /* Adjust as needed */
 }
 
 .nameArabic {
-  font-size: 4rem;
-  color: #fff;
+  font-size: 8rem;
+  color: #baffa1;
   font-family: 'a';
 }
 
@@ -100,7 +117,6 @@
   left: -60;
   width: 100px;
   height: 100px;
-  background-image: url("/clip.png");
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(-50deg);
@@ -113,7 +129,6 @@
   right: -0px;
   width: 100px;
   height: 100px;
-  background-image: url("/clip.png");
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(55deg) scaleX(-1);
@@ -123,44 +138,82 @@
 
 .title {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2.5rem;
-  background-image: url("/paper.png"); /* Applied paper.png as background */
+  font-size: 3.5rem;
+  background-image: url("/black.png"); /* Applied paper.png as background */
   background-size: 100% 100%; /* Ensure the image covers the title area */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */
-  padding: 1rem 2rem;
+  padding: 1rem 5rem;
   border-radius: 5px;
   position: relative;
   z-index: 0;
-  color: #333; /* Changed text color for readability on paper.png */
+  font-family: 'ArchivoBlack-Regular', 'Courier New', Courier, monospace;
+  color: #baffa1; /* Changed text color for readability on paper.png */
 }
 
 .description {
-  font-family: 'YAFdJn5d8s0_0', auto;
-  font-size: 29px;
+  font-size: 22px;
   line-height: 45px;
-  font-weight: 400;
+  font-weight: 800;
   margin-bottom: 2rem;
   max-width: 800px;
   color: rgb(255, 255, 255);
+  src: url('/fonts/Aileron-Regular.otf') format('opentype');
+}
+
+.aboutDescription {
+  font-family: 'aileron', sans-serif;
+  text-align: justify;
+  font-weight: bold;
 }
 
 .viewPage {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.5rem;
-  color: #fff; /* Set text color to white */
-  text-decoration: underline;
-  margin-bottom: 2rem;
-  display: inline-block;
-}
-
-.filmList p {
-  font-family: 'YAFdJn5d8s0_0', auto;
   font-size: 29px;
   line-height: 45px;
   font-weight: 400;
-  margin: 0.5rem 0;
-  text-decoration: underline;
   color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: 'ArchivoBlack-Regular';
 }
 
+.filmList {
+  text-align: left;
+  width: 100%; /* Ensure it takes full width to justify content within */
+  max-width: 800px; /* Match description max-width for alignment */
+}
+
+.filmList p {
+  font-family: 'aileron', sans-serif;
+  font-size: 29px;
+  line-height: 45px;
+  font-weight: 400;
+  margin: 2rem 0;
+  color: rgb(255, 255, 255);
+  font-family: 'ArchivoBlack-Regular';
+}
+
+
+
+.shortFilmsContent {
+  text-align: left;
+  width: 100%;
+  max-width: 800px; /* Match description and film list max-width for alignment */
+}
+
+@media (pointer: coarse) {
+  .writer {
+    font-size: 1.2rem;
+  }
+  .name2 {
+    font-size: 3.5rem;
+  }
+  .nameArabic {
+    font-size: 5rem;
+  }
+  .bg1 {
+    background-image: url("/t2.jpg");
+  }
+  .nameContainer {
+    margin-top: -60vh; /* Adjust this value as needed to move it up */
+  }
+}

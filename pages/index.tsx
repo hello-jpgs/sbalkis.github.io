@@ -15,23 +15,21 @@ export default function Home() {
       <main className={styles.main}>
         <div className={`${styles.section} ${styles.bg1}`}>
           <div className={styles.nameContainer}>
-            <p className={styles.writer}>writer - director - editor</p>
-            <h1 className={styles.name}>sara balkis</h1>
             <h1 className={styles.nameArabic}>سارة بلقيس</h1>
+            <h1 className={styles.writer}>writer - director - editor</h1>
+            <h1 className={styles.name2}>sara balkis</h1>
           </div>
         </div>
         <div className={`${styles.section} ${styles.bg22}`}>
           <div className={styles.titleContainer}>
             <div className={styles.paperclip}></div>
-            <h2 className={styles.title}>about me</h2>
+            <h2 className={styles.title}>about</h2>
           </div>
-          <p className={styles.description}>
-          I’m a Palestinian  filmmaker based in Canada. The core tenet of my work is to uplift my people’s struggle for liberation. In the last two years, I’ve focused on producing and editing videos for the Palestinian Movement, while also creating several short films. 
-
+          <p className={`${styles.description} ${styles.aboutDescription}`}>
+          Sara Balkis is an emerging Palestinian filmmaker and writer based in Montreal, Canada. Her work often explores themes of exile, collective memory and resistance, with the ultimate goal of supporting the Palestinian struggle for liberation from the diaspora.
           </p>
-          <p className={styles.description}>
-          Earlier this year, I was selected as a filmmaker in residence at the 2025 Toronto Palestine Film Festival, where my latest short film Between the Silence and The Noise will premiere in September of this year, currently in post-production.
-          </p>
+          <p className={`${styles.description} ${styles.aboutDescription}`}>
+          She was selected as a filmmaker in residence for the Toronto Palestine Film Festival, where he latest short film Between the Silence and the Noise will premiere in September 2025. She is completing a BFA in Film Production at Concordia University.</p>
         </div>
         <div className={`${styles.section} ${styles.bg22inv}`}>
           <div className={styles.titleContainer}>
@@ -41,11 +39,13 @@ export default function Home() {
           <p className={styles.description}>
             Click on "VIEW PAGE" to navigate to the films, then scroll.
           </p>
-          <Link href="/view" className={styles.viewPage}>VIEW PAGE</Link>
-          <div className={styles.filmList}>
-            <p>BETWEEN THE SILENCE + THE NOISE (2025)</p>
-            <p>EXILE (2024)</p>
-            <p>From The River to The Sea (2023)</p>
+          <div className={styles.shortFilmsContent}>
+            <Link href="/short-films" className={styles.viewPage}>VIEW PAGE</Link>
+            <div className={styles.filmList}>
+              <p>BETWEEN THE SILENCE + THE NOISE (2025)</p>
+              <p>EXILE (2024)</p>
+              <p>From The River to The Sea (2023)</p>
+            </div>
           </div>
         </div>
       </main>

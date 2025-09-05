@@ -26,9 +26,11 @@ const ShortFilms: NextPage = () => {
               <br />
               <p><b>DOP - Talal Akkad</b></p>
               <br />
-              <p><b>Editors - Ghia Tadros & Sara Balkis</b></p>
+              <p><b>Editors - Ghia Tadros</b></p>
               <br />
               <p><b>Sound Design - Yorgo El-Terek</b></p>
+              <br />
+              <p><b>Original Score - Louis Deng</b></p>
             </div>
             <div className={styles.description}>
               <p>
@@ -48,7 +50,7 @@ const ShortFilms: NextPage = () => {
 
         <section className={styles.section2}>
           <p className={styles.postProductionText}>currently in post-production</p>
-          <video className={styles.video} controls>
+          <video className={styles.video} controls poster="/videos/1.png">
             <source src="/videos/1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -78,7 +80,7 @@ const ShortFilms: NextPage = () => {
           </div>
         </section>
 <section className={styles.section2}>
-          <video className={styles.video} controls>
+          <video className={styles.video} controls poster="/videos/2.png">
             <source src="/videos/2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -95,7 +97,7 @@ const ShortFilms: NextPage = () => {
               </p>
             </div>
             <div className={styles.videoContainer4}>
-              <video className={styles.video4} controls>
+              <video className={styles.video4} controls poster="/videos/3.png">
                 <source src="/videos/3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
