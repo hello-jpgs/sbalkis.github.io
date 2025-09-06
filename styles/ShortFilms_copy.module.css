@@ -1,36 +1,27 @@
 @font-face {
   font-family: 'Exiledesec';
-  src: url('/sbalkis.github.io/fonts/2.woff2') format('woff2');
+  src: url('/fonts/2.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'LibreBaskervilleItalic';
-  src: url('/sbalkis.github.io/fonts/LibreBaskerville-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-
-
-@font-face {
   font-family: 'CreditsFont';
-  src: url('/sbalkis.github.io/fonts/12.woff2') format('woff2');
+  src: url('/fonts/12.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'mov_t';
-  src: url('/sbalkis.github.io/fonts/mov_t.woff2') format('woff2');
+  src: url('/fonts/mov_t.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CastFont'; /* Choose a suitable name for your font */
-  src: url('/sbalkis.github.io/fonts/10.woff2') format('woff2');
+  src: url('/fonts/10.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,7 +41,7 @@
 }
 
 .title {
-  margin-top: 1rem;
+  margin-top: 12rem;
   line-height: 1.15;
   font-family: 'mov_t', sans-serif;
   font-size: 2.5rem;
@@ -67,24 +58,23 @@
 .section1 {
   width: 100vw;
   height: 100vh;
-  background-image: url(/sbalkis.github.io/girl.jpg);
+  background-image: url(/s1.png);
   background-size: cover;
-  background-position: center; /* Center the background image */
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-  margin-bottom: 140px;
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
-  padding: 0 0rem;
+  gap: 2rem;
+  padding: 2rem;
   max-width: 1200px;
-  margin-bottom: 2rem;
 }
 
 .credits {
@@ -94,7 +84,6 @@
   grid-row: 2;
   text-align: left;
   max-width: 170px;
-  margin-bottom: 5rem;
 }
 
 .titleContainer {
@@ -114,7 +103,6 @@
   display: inline-block; /* shrink to fit the text */
   text-align: justify;  /* justify text inside */
   font-size: 1.2rem;
-  
 }
 
 .postProductionText {
@@ -132,20 +120,18 @@
   grid-column: 1;
   grid-row: 1;
   text-align: right;
-  transform: rotate(-10deg) translateX(380px) translateY(200px); /* move left & down */
+  transform: rotate(-10deg) translateX(280px) translateY(200px); /* move left & down */
 }
 
 
 .video {
   width: 557.035px;
   height: 313.332px;
-  display: block;
-  margin: auto;
 }
 
 
 .section2 {
-  height: 30vw;
+  height: 20vw;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -160,7 +146,7 @@
 .section3 {
   width: 100vw;
   height: 100vh;
-  background-image: url(/sbalkis.github.io/s3.png);
+  background-image: url(/s3.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -189,12 +175,11 @@
 }
 
 .titleExile {
-  font-family: 'LibreBaskervilleItalic', serif;
-  font-size: 3rem; /* Larger for impact */
+  font-family: 'Bebas Neue', sans-serif; /* Example, adjust as needed */
+  font-size: 4rem; /* Larger for impact */
   margin: 0;
   line-height: 1.15;
   font-weight: bold;
-  letter-spacing: 10px;
 }
 
 .yearExile {
@@ -253,9 +238,6 @@
   align-items: baseline;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.5rem;
-  flex-direction: column;
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
 }
 
 .title4 {
@@ -269,30 +251,26 @@
 .year4 {
   font-family: 'CastFont', sans-serif;
   font-size: 2.5rem;
-  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .description4 {
   grid-column: 1; /* First column */
   grid-row: 2; /* Second row */
   text-align: left; /* Align description to the right */
-  padding-right: 4rem; /* Add some padding to separate from video */
-  font-size: 1.5rem;
-  font-style: italic;
+  padding-right: 2rem; /* Add some padding to separate from video */
 }
 
 .videoContainer4 {
   grid-column: 2; /* Second column */
   grid-row: 2; /* Second row */
   display: flex;
-  justify-content: center; /* Align video to the center */
+  justify-content: left; /* Align video to the left */
 }
 
 .video4 {
   width: 557.035px; /* Adjust based on your video size */
   height: 313.332px; /* Adjust based on your video size */
-  display: block;
-  margin: auto;
 }
 
 @media (pointer: coarse) {
@@ -302,8 +280,6 @@
     grid-template-columns: 1fr;
     grid-auto-rows: auto; /* rows expand to fit content */
     gap: 2rem; /* space between items */
-    padding: 2rem;
-    max-width: 1200px;
   }
 
   .titleContainer {
@@ -311,10 +287,10 @@
     grid-column: 1 / -1;
     display: flex;
     grid-row: 1;
-    flex-direction: column;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
+    justify-content: left;
+    align-items: baseline;
   }
+
 
   .title {
     margin-top: 10rem;
@@ -329,15 +305,11 @@
     flex-direction: column; /* stack children */
     align-items: center;
     justify-content: flex-start;
-    height: 1900px; /* Match mobile height of .section3 */
+    height: auto;  /* let height grow with content */
     background-position: 25% 50%;
   }
 
-  .year {
-    font-family: 'CastFont', sans-serif;
-    font-size: 2.5rem;
-    margin-top: 1rem;
-  }
+  
 
   .credits {
     grid-row: 3;
@@ -350,28 +322,24 @@
 
   .cast {
     font-family: 'CastFont', sans-serif; /* Apply the custom font */
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     grid-column: 1;
     grid-row: 3;
     text-align: right;
-    transform: rotate(-10deg) translateX(25px) translateY(90px); /* move left & down */
+    transform: rotate(-10deg) translateX(10px) translateY(100px); /* move left & down */
   }
 
   .postProductionText {
     font-family: 'CastFont', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: white;
   }
 
-
-
   .video {
     width: 100%;
     height: auto;
-    display: block;
-    margin: auto;
   }
 
   .description {
@@ -401,13 +369,14 @@
   
 
   .titleExile {
-    font-size: 3.5rem;
+    font-size: 5rem;
     text-align: center;
     margin-top: 6rem; /* adjust until it aligns with bg image */
+    font-size: 2.5 rem;
   }
 
   .yearExile {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-left: 2rem;
   }
@@ -453,7 +422,5 @@
   .video4 {
     width: 100%;
     height: auto;
-    display: block;
-    margin: auto;
   }
 }
